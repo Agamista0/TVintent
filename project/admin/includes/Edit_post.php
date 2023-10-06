@@ -2,6 +2,7 @@
 
     require_once "db.php";
 
+
     if(isset($_GET['Edit_post'])) {
 
         $id = mysqli_real_escape_string($conn, $_GET['Edit_post']);
@@ -15,17 +16,20 @@
 
             $title = $row['title'];
             $content = $row['content'];
-        }
-        else {
-            $title="" ;
-            $contect = "";
-        }
-        if(isset($_POST['submit'])){
-            $query = "DELETE FROM posts WHERE id = '$id'";  
-            // Execute the query
-            $result = mysqli_query($conn, $query);
-            header('Location: index.php') ;
-        
+
+
         }}
+    else {
+        $title="" ;
+        $contect = "";
+    }   
+    if(isset($_POST['submit'])){
+        $query = "DELETE FROM posts WHERE id = '$id'";  
+        // Execute the query
+        $result = mysqli_query($conn, $query);
+        header('Location: index.php') ;
+    }
+    
+    mysqli_close($conn);
 
    ?>

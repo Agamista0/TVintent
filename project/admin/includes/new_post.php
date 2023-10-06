@@ -14,9 +14,10 @@ if(isset($_POST) & !empty($_POST)){
 
     $fileTmpPath = $_FILES['picture']['tmp_name'];
     $fileName = $_FILES['picture']['name'];
-    $uploadDirectory = '../post-pics/';
+    $uploadDirectory = './post_pics/';
     $uniqueFileName = uniqid() . '_' . $fileName;
     $destination = $uploadDirectory . $uniqueFileName;
+    
     move_uploaded_file($fileTmpPath, $destination);
 
     $sql = "INSERT INTO posts(title, content , picture)

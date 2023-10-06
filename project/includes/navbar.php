@@ -7,18 +7,30 @@
     <link rel="stylesheet" href="assets/css/includes/navbar.css">
     <title>Document</title>
 </head>
-<body>
-<div class="navbar">
-    <img src="assets/icons/Multimedia Tv Podcast Play Service Logo.svg" alt="" class="logo">
-    <ul class="link">
-        <li><a href="">Products</a></li>
-        <li><a href="">Portfolio</a></li>
-        <li><a href="">Services</a></li>
-        <li><a href="">About us</a></li>
+<body><div class="overlay" id="overlay"></div>
+
+<div class="custom-navigation-bar">
+    <a href="home.php"> <img src="assets/icons/Multimedia Tv Podcast Play Service Logo.svg" alt="" class="custom-navigation-bar-logo"> </a>
+    <ul class="custom-navigation-bar-list">
+        <li><a href="home.php" class="custom-navigation-bar-link">Home</a></li>
+        <li><a href="portfolio.php" class="custom-navigation-bar-link">Portfolio</a></li>
+        <li><a href="about.php" class="custom-navigation-bar-link">Services</a></li>
+        <li><a href="about.php" class="custom-navigation-bar-link">About us</a></li>
     </ul>
     <div href="" class="navbar-btns">
-    <a href="" class="navbar-btn contact-btn">Contact</a>
-    <a href="" class="navbar-btn support-btn">Support</a>
+    <a href="contact.php" class="custom-navigation-bar-btn custom-navigation-bar-contact-btn">Contact</a>
+    <a href="support.php" class="custom-navigation-bar-btn custom-navigation-bar-support-btn">Support</a>
     </div>
+    <a class="custom-navigation-bar-toggler" id="toggleButton"><i class="fa-solid fa-bars"></i></a>
+    <ul class="custom-navigation-bar-list-small" id="navbar-list-small">
+    <i class="fa fa-times" aria-hidden="true"></i>
+        <li><a href="home.php" class="custom-navigation-bar-link">Home</a></li>
+        <li><a href="portfolio.php" class="custom-navigation-bar-link">Portfolio</a></li>
+        <li><a href="about.php" class="custom-navigation-bar-link">Services</a></li>
+        <li><a href="about.php" class="custom-navigation-bar-link">About us</a></li>
+        <li><a href="contact.php" class="custom-navigation-bar-btn-small custom-navigation-bar-contact-btn">Contact</a></li>
+        <li class="last-list-li"><a href="support.php" class="custom-navigation-bar-btn-small  custom-navigation-bar-support-btn">Support</a></li>
+    </ul>
 </div>
+<script src="js/navbar.js"></script>
 </body>

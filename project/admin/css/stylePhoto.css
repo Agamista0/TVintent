@@ -1,0 +1,21 @@
+.div-photo{
+    text-align:center;
+    padding:3%;
+    border:thin solid black;
+    }
+
+    .input-photo[type="file"]{
+    display: none;
+    }
+
+    .label-photo{
+    cursor:pointer;
+    }
+
+    #imageName{
+    color:green;
+    }
+
+    #btnCreate{
+      
+}

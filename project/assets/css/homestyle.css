@@ -1,56 +1,10 @@
 @import "includes/global.css"; 
-
+ 
 .body-cotanier{
     padding-left:10%;
     padding-right:10%;
     margin-top:100px;
     width:100%;
-}
-.first-row{
-    display: flex;
-    width:100%;
-    align-items: center;
-    justify-content: space-between;
-}
-.left-pragraph-container{
- width:40%;
- color: #000;
- font-size: 36px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-}
-.left-paragraph-header{
-    display: flex;
-}
-.ahdadad{
-    font-size:50px;
-}
-.ahdadad1{
-    font-size:50px;
-    color: #FFCA0A;
-
-}
-.left-pragraph{
-    font-size:25px;
-    margin:10px;
-}
-
-.blur-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('assets/icons/man-watching-show-his-tv.jpg'); /* Replace with your image URL */
-    background-size: cover;
-    filter: blur(16px); /* Adjust the blur radius as needed */
-    z-index: -1;
-}
-
-.first-row-img {
-    width: 40%;
-    height: 26.66%;
 }
 .second-row{
     margin-top:170px;
@@ -97,7 +51,7 @@ color: #FFCA0A;
     font-size:20px;
 
 }
-.third-row{
+.fourth-row{
     display:flex;
     align-items: center;
      width:100%;
@@ -108,10 +62,227 @@ color: #FFCA0A;
 .explore{
     margin-bottom:30px;
     font-size:50px;
+    font-family: 'Poppins', sans-serif;
+
  }
-.third-row-content{
+.fourth-row-content{
     width:100%;
     display: grid;
     grid-template-columns: repeat(3, 1.5fr);
     position: relative;
 }
+.third-row{
+    height:auto;
+    width:100%;
+    background-color: #f5f8fa;
+    margin-top:50px;
+    position:relative;
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+    padding-bottom:33px;
+  }
+.third-row-header{
+     margin-top:30px;
+    font-size:50px;
+    font-weight:600;
+ 
+}
+.third-row-img{
+    object-fit:cover;
+    margin-top:40px;
+    width:100%;
+    height:99%;
+    border-bottom-right-radius:70px;
+    border-top-right-radius:70px;
+    /* transform: rotate(-5deg); */
+
+}
+/* .third-row-desc{
+    height:12%;
+
+} */
+.third-row-desc-header{
+    font-size:31px;
+    margin-bottom:40px;
+    margin-top:50px;
+
+}
+.third-row-content{
+    display:grid;
+    grid-template-columns: 35% 50%;
+    position:relative;
+    height:100%;
+    gap:7%;
+    align-items: center;
+ }
+.third-row-desc-paragraphs-container{
+    white-space: wrap !important;
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.third-row-desc{
+    display:flex;
+    flex-direction:column;
+}
+.third-row-desc-paragraphs{
+    font-size:19px;
+    margin:20px;
+
+}
+.third-row-desc-paragraphs-header{
+    font-weight: 600;
+    font-size:21px;
+    color:#1F8DFA;
+}
+
+@media screen and (max-width: 971px) {
+.third-row-desc-header{
+    margin-top:20px;
+}
+    .third-row-content{
+        display:grid;
+        grid-template-columns: repeat(1, 100%);
+        position:relative;
+        height:auto;
+        gap:1%;
+        padding:15px;
+        padding-bottom:5px;
+
+        align-items: center;
+     }
+     .third-row-header{
+        margin-top:10px;
+       font-size:40px;
+       font-weight:600;
+    
+   }
+   .third-row-img{
+       object-fit:cover;
+       margin-top:0px;
+       width:100%;
+       height:92%;
+       border-radius:30px;
+       order: 2;   
+   }
+    
+   .third-row-desc-paragraphs-container{
+       white-space: wrap !important;
+       display:grid;
+       grid-template-columns: repeat(1, 1fr);
+   }
+   .third-row-desc{
+       display:flex;
+       flex-direction:column;
+   }
+   .third-row-desc-paragraphs{
+       font-size:17px;
+       margin:20px;
+   
+   }
+   .third-row-desc-paragraphs-header{
+       font-weight: 600;
+       font-size:19px;
+       color:#1F8DFA;
+   }
+
+    .body-cotanier{
+        padding-left:5%;
+    padding-right:5%;
+    }
+    .first-row{
+        flex-direction:column;
+        width:100%;
+        
+    }
+
+    .left-pragraph-container 
+        {
+            width:100%;
+          }
+
+        
+    .left-pragraph-container p
+    {
+ 
+        font-size:35px;
+    }
+
+
+        .first-row-img {
+            width: 100%;
+            height: 26.66%;
+            margin-top:50px;
+        }
+
+        .second-row{
+            flex-direction:column;
+            margin-top:100px;
+
+        }        
+    
+        .second-row-paragraph-left{
+            width:100%;
+            padding:30px;
+
+        }
+
+        .second-row-paragraph-left-header{
+            font-size:22px;
+            margin-left:10px;
+            color: #FFCA0A;
+            font-weight:600;
+            
+            }
+
+            .bullet-points{
+                font-size:19px;
+                margin:15px;
+                margin-left:30px;
+               }
+
+.second-row-paragraph-right-container{
+    width:100%;
+    height:200px;
+    margin-top:30px;
+}
+.second-row-paragraph-right-container h2{
+    margin-bottom:20px;
+}
+.second-row-paragraph-right{
+    font-size:20px;
+
+}
+
+
+.fourth-row{
+    display:flex;
+    align-items: center;
+     width:100%;
+     margin-top:1px;
+     margin-bottom:100px;
+     flex-direction: column;
+    
+}
+.explore{
+    margin-bottom:30px;
+    font-size:50px;
+    font-family: 'Poppins', sans-serif;
+
+ }
+.fourth-row-content {
+  width:70%;
+  display: flex;
+  flex-direction: column;
+}
+
+               
+}
+
+@media screen and (max-width: 576px)  {
+    .fourth-row-content {
+        width:90%;
+        display: flex;
+        flex-direction: column;
+      }
+        }

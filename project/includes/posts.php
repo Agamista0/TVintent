@@ -23,13 +23,11 @@
                 <div class="blog-post">
                     <img src="../admin/'.$row["picture"].'" alt="" class="post-img">
                     <div class="post-title">
-                        <p class="post-title-p">'.$row["title"].'</p>
+                        <p class="post-title-p" >'.$row["title"].'</p>
                         <a href="/post.php?post_num='. $row['id'].'?title='. $row['title'].'" class="read-more-btn">Read More</a>
                     </div>
                 </div> '; } 
-            } else {
-                    echo "There are no posts";
-                }
+            }
                 $conn->close();
     ?>
 </body>

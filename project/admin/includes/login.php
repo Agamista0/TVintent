@@ -21,7 +21,8 @@ if(isset($_POST) & !empty($_POST)){
 if(isset($_SESSION['email'])){
  $smsg = "<h4 class='smsg'>successful entry</h4>";
 
- echo "
- <meta HTTP-EQUIV='REFRESH' content='5; url=/admin/'/>";
+    header("location: /admin/") ;
+
 }
+    mysqli_close($conn);
 ?>
