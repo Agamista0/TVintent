@@ -92,8 +92,8 @@
       </div>
       <div class="phone-footer">
         <div class="dropdown" data-dropdown>
-          <button class="link" data-dropdown-button>About Us <i class="fa-solid fa-chevron-right"></i>
-          </button>
+          <a class="link" data-dropdown-button>About Us <i class="fa-solid fa-chevron-right"></i>
+          </a>
           <div class="dropdown-content">
             <ul>
               <li class="dropdown-li">
@@ -114,8 +114,8 @@
      
         
         <div class="dropdown" data-dropdown>
-          <button class="link" data-dropdown-button>Services <i class="fa-solid fa-chevron-right"></i>
-          </button>
+          <a class="link" data-dropdown-button>Services <i class="fa-solid fa-chevron-right"></i>
+          </a>
           <div class="dropdown-content">
           <ul>
             <li class="dropdown-li">
@@ -135,8 +135,8 @@
         </div>
 
          <div class="dropdown" data-dropdown>
-          <button class="link" data-dropdown-button>Having Issues? <i class="fa-solid fa-chevron-right"></i>
-          </button>
+          <a class="link" data-dropdown-button>Having Issues? <i class="fa-solid fa-chevron-right"></i>
+          </a>
           <div class="dropdown-content">
           <div class="contact-footer-small">
         <p class="contact-footer-p" >Having Issues?</p>
