@@ -23,12 +23,9 @@
 
     <div class="container">
         <div class="post-body">
-        <!-- <?php echo $data['title']; ?> -->
-        <p class="post-title">Lorem ipsum dolor sit amet consectetur</p>
-        <!-- <?php echo $data['picture'];?> -->
-        <img src="admin/post_pics/651d7e5b82a19_download.jpeg" alt="34e" class="post-picture">
-        <!-- <?php echo $data['content']; ?> -->
-        <p class="post-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dolore laborum nulla alias! Ad commodi mollitia provident aut minima rem veniam labore dolorem porro quibusdam necessitatibus enim tenetur, dicta veritatis.</p>
+        <p class="post-title"><?php echo $data['title']; ?></p>
+        <img src="../admin/<?php echo $data['picture'];?>" alt="34e" class="post-picture">
+        <p class="post-paragraph"><?php echo $data['content']; ?></p>
             <h2 class="contact-p-header">
                 Reach out to us
             </h2>
@@ -47,9 +44,10 @@
             </div>
         </div>
     </div>
+    
     <?php include "includes/footer.php";?>
     <script src="js/darkmode.js"></script>
-
+    
 </body>
 
 </html>

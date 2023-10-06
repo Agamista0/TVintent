@@ -1,28 +1,30 @@
 .blog-post-includes{
-    background-color: #F4F4F4;
-   height:auto;
-   margin:15px;
-   position: relative;
-   border-radius: 9px;
- }
-.post-img-includes{
-   border-radius: 9px;
-   width:100%;
-   height:50%;
+   background-color: #F4F4F4;
+  height:auto;
+  margin:15px;
+  position: relative;
+  border-radius: 9px;
+  height:350px;
+}
 
-    object-fit: cover;
+.post-img-includes{
+  border-radius: 9px;
+  width:100%;
+  height:50%;
+
+   object-fit: cover;
 }
 .post-title-includes{
-   font-size:18px;
-   padding:25px;
+  font-size:18px;
+  padding:25px;
 }
 .read-more-btn{
-   color: #0270e0;
-   position: relative;
-   bottom:15px;
+  color: #0270e0;
+  position: absolute;
+  bottom:15px;
 }
 .post-title-p-includes{
-   margin-top:10px;
-   margin-bottom:50px;
+  margin-top:10px;
+  margin-bottom:50px;
 
 }
