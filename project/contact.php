@@ -44,11 +44,11 @@ include_once 'emailContact.php';
                 <div class="right">
                 <div class="input-container">
                 <input type="email" name="email" id="" class="info-inputs" placeholder="Email" value="<?php echo !empty($postData['email'])?$postData['email']:''; ?>" required="">
-                    <input type="text" name="Phone" id="" class="info-inputs" placeholder="Phone (option)" value="<?php echo !empty($postData['Phone'])?$postData['Phone']:''; ?>" >
+                    <input type="text" name="Phone" id="" class="info-inputs" placeholder="Phone (optional)" value="<?php echo !empty($postData['Phone'])?$postData['Phone']:''; ?>" >
                 </div>
                 <div class="input-container">
 
-                <input type="text" name="CompanyName" id="" class="info-inputs" placeholder="Company Name (option)" value="<?php echo !empty($postData['CompanyName'])?$postData['CompanyName']:''; ?>" >
+                <input type="text" name="CompanyName" id="" class="info-inputs" placeholder="Company Name (optional)" value="<?php echo !empty($postData['CompanyName'])?$postData['CompanyName']:''; ?>" >
 
                 <input type="text" name="subject" id="" class="info-inputs" placeholder="Message Title" value="<?php echo !empty($postData['subject'])?$postData['subject']:''; ?>" required="">
                 </div>

@@ -12,9 +12,10 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/post-view.css">
-    <title>Document</title>
+    <title>Post</title>
 </head>
 
 <body>
@@ -23,15 +24,13 @@
     <div class="container">
         <div class="post-body">
         <p class="post-title"><?php echo $data['title']; ?></p>
-        <img src="../admin/<?php echo $data['picture'];?>" alt="" class="post-picture">
+        <img src="../admin/<?php echo $data['picture'];?>" alt="34e" class="post-picture">
         <p class="post-paragraph"><?php echo $data['content']; ?></p>
-
-            <!-- ده هيفضل ثابت -->
             <h2 class="contact-p-header">
-                reach out to us
+                Reach out to us
             </h2>
             <p class="contact-p">
-                reach out to us at <a href="">email$email.com</a>
+                Reach out to us at <a href="">email$email.com</a>
             </p>
         </div>
         <div class="second-column">
@@ -45,6 +44,9 @@
             </div>
         </div>
     </div>
+    <?php include "includes/footer.php";?>
+    <script src="js/darkmode.js"></script>
+
 </body>
 
 </html>

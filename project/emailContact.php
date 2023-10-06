@@ -109,7 +109,7 @@ if(isset($_POST['submit'])){
                     ';
                     $mail->send();
                     $alert = '<div class="alert-success">
-                    <span> Thank you! Your contact request has submitted successfully, we will get back to you soon..</span>
+                    <span> Thank you! Your contact request has been submitted successfully, we will get back to you soon..</span>
                     </div>';
                     $status = 'success'; 
                     $postData = ''; 

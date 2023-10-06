@@ -20,7 +20,7 @@
 .custom-navigation-bar-link {
     white-space:'nowrap';
     color:black;
-    font-size: 20px;
+    font-size: 16px;
 
  }
  .custom-navigation-bar-link:hover{
@@ -35,7 +35,7 @@
     padding-left:20px;
     padding-right:20px;
 
-    font-size: 17px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 700;
      border-radius: 15px;

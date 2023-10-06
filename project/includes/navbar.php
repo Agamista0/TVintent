@@ -14,6 +14,7 @@
     <ul class="custom-navigation-bar-list">
         <li><a href="home.php" class="custom-navigation-bar-link">Home</a></li>
         <li><a href="portfolio.php" class="custom-navigation-bar-link">Portfolio</a></li>
+        <li><a href="blog.php" class="custom-navigation-bar-link">Blog</a></li>
         <li><a href="about.php" class="custom-navigation-bar-link">Services</a></li>
         <li><a href="about.php" class="custom-navigation-bar-link">About us</a></li>
     </ul>
@@ -26,6 +27,7 @@
     <i class="fa fa-times" aria-hidden="true"></i>
         <li><a href="home.php" class="custom-navigation-bar-link">Home</a></li>
         <li><a href="portfolio.php" class="custom-navigation-bar-link">Portfolio</a></li>
+        <li><a href="blog.php" class="custom-navigation-bar-link">Blog</a></li>
         <li><a href="about.php" class="custom-navigation-bar-link">Services</a></li>
         <li><a href="about.php" class="custom-navigation-bar-link">About us</a></li>
         <li><a href="contact.php" class="custom-navigation-bar-btn-small custom-navigation-bar-contact-btn">Contact</a></li>
