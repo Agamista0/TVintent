@@ -76,12 +76,13 @@
  text-align: center;
 }
  
-.overlay {
+.navoverlay {
   display: none;
     width: 100%;    
     position: fixed;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7); /* Adjust the last value for transparency */
+    background-color: rgba(0, 0, 0, 0.7); 
+    z-index: 10000000000000000000000000000;
  }
 
  .custom-navigation-bar-list-small li{
@@ -104,7 +105,7 @@
         cursor: pointer;
         font-size:18px;
     }
-    .overlay.active {
+    .navoverlay.active {
         display: block;
           width: 100%;    
           position: fixed;
@@ -118,12 +119,14 @@
          right:0px;
         top:0px;
         position: fixed;
-        width:420px;
+        width:400px;
         height:auto;
         background-color: rgb(255, 255, 255);
          display: block;
         border-radius:9px;
         padding:25px;
+        z-index: 111111111111111111111111111111;
+
      }
      .custom-navigation-bar-list-small.active li{
      border-bottom:0.01rem solid rgb(204, 204, 204);

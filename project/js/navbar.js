@@ -24,3 +24,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
   
+
+function navigateAndScroll() {
+  // Navigate to the new page
+  window.location.href = "about.php#Services";
+  setTimeout(function() {
+    var section = document.getElementById("Services");
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth"});
+    }
+  }, 500); 
+}

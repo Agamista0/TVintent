@@ -43,9 +43,14 @@ color: #FFCA0A;
 .second-row-paragraph-right-container{
     width:45%;
     height:200px;
+    margin-top:50px;
+    margin-bottom: 120px;
+    padding:10px;
+
 }
 .second-row-paragraph-right-container h2{
-    margin-bottom:20px;
+     margin-top:50px;
+
 }
 .second-row-paragraph-right{
     font-size:20px;

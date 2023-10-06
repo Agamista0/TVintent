@@ -249,6 +249,12 @@ padding-right:20px;
 }
 
   @media screen and (max-width: 971px) {
+    .body-cotanier{
+      padding-left:5%;
+      padding-right:10%;
+      margin-top:100px;
+      width:100%;
+  }
 
     .portfolio-row-content-row{
       display: grid;
@@ -261,7 +267,7 @@ padding-right:20px;
    .portfolio-row-content-img{
     margin:0px;
     margin-top:40px;
-    width:220px;
+    width:190px;
 }
     .testmonials-cards{
       display: flex;
@@ -307,6 +313,14 @@ padding-right:20px;
       align-items: center;
       justify-content: center;
       padding-left:0%;
-    }
+     }
     
 }  
+
+@media screen and (max-width: 500px) {
+  .portfolio-row-content-img{
+    margin:0px;
+    margin-top:40px;
+    width:170px;
+}
+}

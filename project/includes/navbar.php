@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="assets/css/includes/navbar.css">
     <title>Document</title>
 </head>
-<body><div class="overlay" id="overlay"></div>
+<body><div class="navoverlay" id="overlay"></div>
 
 <div class="custom-navigation-bar">
     <a href="home.php"> <img src="assets/icons/Multimedia Tv Podcast Play Service Logo.svg" alt="" class="custom-navigation-bar-logo"> </a>
@@ -15,7 +15,7 @@
         <li><a href="home.php" class="custom-navigation-bar-link">Home</a></li>
         <li><a href="portfolio.php" class="custom-navigation-bar-link">Portfolio</a></li>
         <li><a href="blog.php" class="custom-navigation-bar-link">Blog</a></li>
-        <li><a href="about.php" class="custom-navigation-bar-link">Services</a></li>
+        <li><a class="custom-navigation-bar-link"  onclick="navigateAndScroll()">Services</a></li>
         <li><a href="about.php" class="custom-navigation-bar-link">About us</a></li>
     </ul>
     <div href="" class="navbar-btns">
@@ -28,7 +28,7 @@
         <li><a href="home.php" class="custom-navigation-bar-link">Home</a></li>
         <li><a href="portfolio.php" class="custom-navigation-bar-link">Portfolio</a></li>
         <li><a href="blog.php" class="custom-navigation-bar-link">Blog</a></li>
-        <li><a href="about.php" class="custom-navigation-bar-link">Services</a></li>
+        <li><a class="custom-navigation-bar-link" onclick="navigateAndScroll()" >Services</a></li>
         <li><a href="about.php" class="custom-navigation-bar-link">About us</a></li>
         <li><a href="contact.php" class="custom-navigation-bar-btn-small custom-navigation-bar-contact-btn">Contact</a></li>
         <li class="last-list-li"><a href="support.php" class="custom-navigation-bar-btn-small  custom-navigation-bar-support-btn">Support</a></li>

@@ -161,11 +161,8 @@
 									<div class="single-content">
 										<span>Donec luctus</span>
 										<h4>Advertising on CTV</h4>
-										<ul class="time-sidual">
-											<li class="day">Monday - Fridayp <span>8.00-20.00</span></li>
-											<li class="day">Saturday <span>9.00-18.30</span></li>
-											<li class="day">Monday - Thusday <span>9.00-15.00</span></li>
-										</ul>
+										<p>Lorem ipsum sit amet consectetur adipiscing elit. Vivamus et erat in lacus convallis sodales.</p>
+
 										<a href="#">LEARN MORE<i class="fa fa-long-arrow-right"></i></a>
 									</div>
 								</div>
@@ -178,7 +175,7 @@
 		<!--/End Start schedule Area -->
 
 		<!-- Start Feautes -->
-		<section class="Feautes section">
+		<section class="Feautes section" id="Services">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
@@ -234,7 +231,7 @@
 					<div class="col-lg-3 col-md-6 col-12">
 						<!-- Start Single Fun -->
 						<div class="single-fun">
-							<i class="icofont icofont-home"></i>
+						<i class="fa fa-home" aria-hidden="true"></i>
 							<div class="content">
 								<span class="counter">3468</span>
 								<p>Global CTV households</p>
@@ -306,12 +303,7 @@
 					</div>
 					<div class="col-lg-6 col-12">
 						<!-- Start Choose Rights -->
-						<div class="choose-right">
-							<div class="video-image">
-								<!-- Video Animation -->
-								<div class="promo-video">
-									 
-								</div>
+					 
 								<!--/ End Video Animation -->
  							</div>
 						</div>
@@ -323,7 +315,9 @@
 		<!--/ End Why choose -->
 		
 		<!-- Start Call to action -->
-		<section class="call-action overlay2" data-stellar-background-ratio="0.5">
+		<section class="call-action overlay" data-stellar-background-ratio="0.5">
+		<img src="assets/icons/complex-aerial-view-city.jpg" class="complex-aerial-view" alt="">
+
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-12">
@@ -331,7 +325,7 @@
 							<h2>Want to work with us? Call @ 1234 56789</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor dictum turpis nec gravida.</p>
 							<div class="button">
-								<a href="contact.php" class="btn">Contact Now</a>
+								<a href="#" class="btn">Contact Now</a>
 								<a href="#" class="btn second">Learn More<i class="fa fa-long-arrow-right"></i></a>
 							</div>
 						</div>
