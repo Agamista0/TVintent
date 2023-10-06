@@ -19,7 +19,11 @@
         </div>
         
     </div>
+           <div class="imgs">
+           <img src="assets/icons/man-watching-show-his-tv.jpg" class="first-row-img-blur" alt="">
+
             <img src="assets/icons/man-watching-show-his-tv.jpg" class="first-row-img" alt="">
+           </div>
 
    </div>
 </body>

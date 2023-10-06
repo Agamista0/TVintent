@@ -2,12 +2,16 @@
 session_start();
 require_once('db.php');
 if(isset($_POST) & !empty($_POST)){
- $email = mysqli_real_escape_string($conn, $_POST['email']);
+ $email = $_POST['email'];
  $password = md5($_POST['password']);
 
- $sql = "SELECT * FROM `admin` WHERE email='$email' AND password='$password'";
- $result = mysqli_query($conn, $sql);
- $count = mysqli_num_rows($result);
+ $sql = "SELECT * FROM `admin` WHERE email=? AND password=? ";
+ $stmt = mysqli_prepare($conn, $sql);
+ mysqli_stmt_bind_param($stmt,'ss',$email,$password);
+ mysqli_stmt_execute($stmt);
+ mysqli_stmt_store_result($stmt);
+
+ $count = mysqli_stmt_num_rows($stmt);
 
  if($count == 1){
   $_SESSION['email'] = $email;
@@ -24,5 +28,4 @@ if(isset($_SESSION['email'])){
     header("location: /admin/") ;
 
 }
-    mysqli_close($conn);
 ?>

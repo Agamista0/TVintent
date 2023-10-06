@@ -20,10 +20,10 @@
             while ($row = $result->fetch_assoc()) {
                 $imageData = $row['picture'];
                 echo '
-                <div class="blog-post">
-                    <img src="../admin/'.$row["picture"].'" alt="" class="post-img">
-                    <div class="post-title">
-                        <p class="post-title-p" >'.$row["title"].'</p>
+                <div class="blog-post-includes">
+                    <img src="../admin/'.$row["picture"].'" alt="" class="post-img-includes">
+                    <div class="post-title-includes">
+                        <p class="post-title-p-includes" >'.$row["title"].'</p>
                         <a href="/post.php?post_num='. $row['id'].'?title='. $row['title'].'" class="read-more-btn">Read More</a>
                     </div>
                 </div> '; } 
