@@ -1,6 +1,6 @@
 <?php 
 // Include form submission script 
-include_once 'emailContact.php'; 
+include_once 'includes/emailContact.php'; 
 ?>
 
 <!DOCTYPE html>

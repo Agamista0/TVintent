@@ -6,8 +6,8 @@ require_once 'phpmailer/PHPMailer.php';
 require_once 'phpmailer/SMTP.php';
 
 // Google reCAPTCHA API key configuration 
-$siteKey     = '6LfGkGcoAAAAAOCGwz31aje6Hs5tBWvFLwXm1bqc'; 
-$secretKey     = '6LfGkGcoAAAAADNrLcILUIX3rZnbOcUIwtCT279g'; 
+$siteKey     = '6Lf1QIIoAAAAALkuhZXWaJmZn2ZLOk_dKPlsmfXD'; 
+$secretKey     = '6Lf1QIIoAAAAAEcfOegUGp-txOvJ2wmy_KkzRbLw'; 
 
 $mail = new PHPMailer(true);
 
@@ -59,13 +59,13 @@ if(isset($_POST['submit'])){
                     $mail->isSMTP();
                     $mail->Host = 'smtp.gmail.com';
                     $mail->SMTPAuth = true;
-                    $mail->Username = 'yousefmyiu@gmail.com'; // Gmail address which you want to use as SMTP server
-                    $mail->Password = 'hyjt vefq jdxs ineb'; // Gmail address Password
+                    $mail->Username = 'tvintent1@gmail.com'; // Gmail address which you want to use as SMTP server
+                    $mail->Password = 'nvqm vjin mmpn iryf'; // Gmail address Password
                     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
                     $mail->Port = '587';
 
-                    $mail->setFrom('yousefmyiu@gmail.com'); // Gmail address which you used as SMTP server
-                    $mail->addAddress('yousefmyou@gmail.com'); // Email address where you want to receive emails (you can use any of your gmail address including the gmail address which you used as SMTP server)
+                    $mail->setFrom('tvintent1@gmail.com'); // Gmail address which you used as SMTP server
+                    $mail->addAddress('tvintent1@gmail.com'); // Email address where you want to receive emails (you can use any of your gmail address including the gmail address which you used as SMTP server)
 
                     $mail->isHTML(true);
                     $mail->Subject = 'Message Received (Contact Page)';
@@ -91,6 +91,10 @@ if(isset($_POST['submit'])){
                                             <tr>
                                                 <td style="padding: 10px 0;"><strong>Phone:</strong></td>
                                                 <td style="padding: 10px 0;">'.$Phone.'</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="padding: 10px 0;"><strong>Company Name:</strong></td>
+                                                <td style="padding: 10px 0;">'.$CompanyName.'</td>
                                             </tr>
                                             <tr>
                                                 <td style="padding: 10px 0;"><strong>message title:</strong></td>

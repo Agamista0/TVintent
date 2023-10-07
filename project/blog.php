@@ -12,23 +12,20 @@
 <div class="body-container" id="post-container">
 
 <?php
-    $limit = 7;
+    $limit = 9;
     $offset = 0; 
     $sql = "SELECT * FROM posts ORDER BY id DESC LIMIT $limit OFFSET $offset";
     include "includes/posts.php"; ?>
+<?php include "includes/footer.php"; ?> 
 
-<!-- <div class="ajax-load text-center" style="display:none">
-    <p><img src="http://demo.itsolutionstuff.com/plugin/loader.gif">Loading More post</p>
-</div> -->
-
-<?php include "includes/footer.php"; ?>
 <script src="js/darkmode.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 <script>
 var offset = <?php echo $offset + $limit; ?>;
 
 $(window).scroll(function() {
-    if ($(window).scrollTop() == $(document).height() - $(window).height()) {
+    if ($(window).scrollTop() >= $(document).height() - $(window).height() - 100) {
         $('.ajax-load').show();
         $.ajax({
             url: 'load_posts.php',
@@ -42,4 +39,5 @@ $(window).scroll(function() {
     }
 });
 </script>
+
 
