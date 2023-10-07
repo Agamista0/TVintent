@@ -130,7 +130,7 @@
 										<span>Lorem Amet</span>
 										<h4> Creation & Distribution</h4>
 										<p>Lorem ipsum sit amet consectetur adipiscing elit. Vivamus et erat in lacus convallis sodales.</p>
-										<a href="#">LEARN MORE<i class="fa fa-long-arrow-right"></i></a>
+										<a href="#" class="learnmore" data-info="1">LEARN MORE<i class="fa fa-long-arrow-right"></i></a>
 									</div>
 								</div>
 							</div>
@@ -146,7 +146,7 @@
 										<span>Fusce Porttitor</span>
 										<h4>CTV Monetization</h4>
 										<p>Lorem ipsum sit amet consectetur adipiscing elit. Vivamus et erat in lacus convallis sodales.</p>
-										<a href="#">LEARN MORE<i class="fa fa-long-arrow-right"></i></a>
+										<a href="#" class="learnmore" data-info="2">LEARN MORE<i class="fa fa-long-arrow-right"></i></a>
 									</div>
 								</div>
 							</div>
@@ -163,7 +163,7 @@
 										<h4>Advertising on CTV</h4>
 										<p>Lorem ipsum sit amet consectetur adipiscing elit. Vivamus et erat in lacus convallis sodales.</p>
 
-										<a href="#">LEARN MORE<i class="fa fa-long-arrow-right"></i></a>
+										<a href="#" class="learnmore" data-info="3">LEARN MORE<i class="fa fa-long-arrow-right"></i></a>
 									</div>
 								</div>
 							</div>
@@ -325,8 +325,8 @@
 							<h2>Want to work with us? Call @ 1234 56789</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor dictum turpis nec gravida.</p>
 							<div class="button">
-								<a href="#" class="btn">Contact Now</a>
-								<a href="#" class="btn second">Learn More<i class="fa fa-long-arrow-right"></i></a>
+								<a href="contact.php" class="btn">Contact Now</a>
+								<a href="#" class="btn second learnmore" data-info="4">Learn More<i class="fa fa-long-arrow-right"></i></a>
 							</div>
 						</div>
 					</div>
@@ -339,6 +339,7 @@
 		<?php include "includes/footer.php"; ?>
 		<!--/ End Footer Area -->
 		<script src="js/darkmode.js"></script>
+		<script src="js/download-learnmore.js"></script>
 		<!-- jquery Min JS -->
         <script src="js/jquery.min.js"></script>
 		<!-- jquery Migrate JS -->
