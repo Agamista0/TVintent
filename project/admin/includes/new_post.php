@@ -9,8 +9,8 @@
  $email = $_SESSION['email'];
 
 if(isset($_POST) & !empty($_POST)){
-    $title = $_POST['title'];
-    $content = $_POST['editor'];
+    $title = filter_var( $_POST['title'], FILTER_SANITIZE_STRING);
+    $content = $_POST['editor'] ;
 
     $fileTmpPath = $_FILES['picture']['tmp_name'];
     $fileName = $_FILES['picture']['name'];
@@ -20,12 +20,11 @@ if(isset($_POST) & !empty($_POST)){
     
     move_uploaded_file($fileTmpPath, $destination);
 
-    $sql = "INSERT INTO posts(title, content , picture)
-    VALUES (?,?,?)";
+    $sql = "INSERT INTO posts(title, content , picture) VALUES (?,?,?)";
     $stmt = $conn->prepare($sql);
     try {
         $stmt->execute([$title, $content ,$destination]);
-        header("loction: posts.php");
+        header("loction: posts");
     }
   
        catch (Exception $e) {

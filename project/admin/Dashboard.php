@@ -1,4 +1,4 @@
-<?php include "includes/index.php" ?>
+<?php include "includes/Dashboard.php" ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -59,13 +59,13 @@
     <div class="sidebar-nav navbar-collapse slimscrollsidebar">
         <ul class="nav" id="side-menu">
             <li>
-                    <a href="index.php" class="waves-effect">
+                    <a href="Dashboard" class="waves-effect">
                         <i class="linea-icon linea-basic fa-fw" data-icon="v"></i>
                         <span class="hide-menu"> Dashboard </span>
                     </a>
             </li>
             <li>
-                <a href="/home.php" class="waves-effect">
+                <a href="/home" class="waves-effect">
                     <i class="icon-home inea-basic fa-fw" data-icon="v"></i>
                     <span class="hide-menu"> Home </span>
                 </a>
@@ -78,13 +78,13 @@
                     </span>
                 </a>
                 <ul class="nav nav-second-level">
-                    <li><a href="/admin/index.php">All Posts</a></li>
-                    <li><a href="new-post.php">Create Post</a></li>
+                    <li><a href="Dashboard">All Posts</a></li>
+                    <li><a href="new-post">Create Post</a></li>
                 </ul>
             </li>
             <li class="nav-small-cap">--- Other</li>
             <li>
-                <a href="includes/logOut.php" class="waves-effect">
+                <a href="includes/logOut" class="waves-effect">
                     <i class="icon-logout fa-fw"></i>
                     <span class="hide-menu"> Log out </span>
                 </a>
@@ -241,7 +241,7 @@
             var searchTerm = $(this).val();
             if (searchTerm !== " ") {
                 $.ajax({
-                    url: 'includes/view_data.php',
+                    url: 'includes/view_data',
                     type: 'GET',
                     data: { search: searchTerm },
                     dataType: 'json',

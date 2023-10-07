@@ -8,7 +8,7 @@
         $query = "DELETE FROM posts WHERE id = '$deleteId'";  
         // Execute the query
         $result = mysqli_query($conn, $query);
-        header('Location: index.php') ;
+        header('Location: Dashboard') ;
 
     }
     

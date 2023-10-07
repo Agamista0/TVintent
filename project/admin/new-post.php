@@ -58,11 +58,11 @@
               <ul class="nav" id="side-menu">
 
 
-                  <li> <a href="index.php" class="waves-effect"><i class="linea-icon linea-basic fa-fw"
+                  <li> <a href="Dashboard" class="waves-effect"><i class="linea-icon linea-basic fa-fw"
                               data-icon="v"></i> <span class="hide-menu"> Dashboard </a>
                   </li>
 
-                  <li> <a href="/home.php" class="waves-effect"><i class="icon-home inea-basic fa-fw"
+                  <li> <a href="/home" class="waves-effect"><i class="icon-home inea-basic fa-fw"
                               data-icon="v"></i> <span class="hide-menu"> Home </a>
                   </li>
 
@@ -70,15 +70,15 @@
                               class="linea-icon linea-basic fa-fw"></i> <span class="hide-menu">Blog<span
                                   class="fa arrow"></span></span></a>
                       <ul class="nav nav-second-level">
-                          <li><a href="/admin/index.php">All Posts</a></li>
-                          <li><a href="new-post.php">Create Post</a></li>
+                          <li><a href="/admin/Dashboard">All Posts</a></li>
+                          <li><a href="new-post">Create Post</a></li>
                   </li>
               </ul>
               </li>
               <li class="nav-small-cap">--- Other</li>
               </li>
 
-              <li><a href="includes/logOut.php" class="waves-effect"><i class="icon-logout fa-fw"></i> <span
+              <li><a href="includes/logOut" class="waves-effect"><i class="icon-logout fa-fw"></i> <span
                           class="hide-menu">Log out</span></a></li>
                         </ul>
           </div>
@@ -95,8 +95,8 @@
                 </div>
                 <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
                     <ol class="breadcrumb">
-                        <li><a href="index.php">Dashboard</a></li>
-                        <li><a href="index.php">Posts</a></li>
+                        <li><a href="Dashboard">Dashboard</a></li>
+                        <li><a href="Dashboard">Posts</a></li>
                         <li class="active">New</li>
                     </ol>
                 </div>

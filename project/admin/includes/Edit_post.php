@@ -27,7 +27,7 @@
         $query = "DELETE FROM posts WHERE id = '$id'";  
         // Execute the query
         $result = mysqli_query($conn, $query);
-        header('Location: index.php') ;
+        header('Location: Dashboard') ;
     }
     
     mysqli_close($conn);

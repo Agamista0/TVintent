@@ -1,7 +1,7 @@
 <?php 
     require_once('connect.php');
     if(isset($_GET['post_num'])) {
-        $id = $_GET['post_num'];
+        $id = filter_var($_GET['post_num'],FILTER_SANITIZE_NUMBER_INT);
         $sql = "SELECT * FROM posts WHERE id = '$id' ";
         $result = $conn->query($sql);
         $data = mysqli_fetch_assoc($result);  
@@ -39,7 +39,7 @@
             </div>
             <div class="related-posts">
                 <?php
-                $sql = "SELECT * FROM posts ORDER BY id DESC LIMIT 3";
+                $sql = "SELECT * FROM posts ORDER BY RAND() DESC LIMIT 3";
                 include "includes/posts.php"?>
             </div>
         </div>

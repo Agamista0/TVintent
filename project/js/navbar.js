@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function navigateAndScroll() {
   // Navigate to the new page
-  window.location.href = "about.php#Services";
+  window.location.href = "about#Services";
   setTimeout(function() {
     var section = document.getElementById("Services");
     if (section) {

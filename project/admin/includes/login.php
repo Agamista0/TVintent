@@ -2,7 +2,7 @@
 session_start();
 require_once('db.php');
 if(isset($_POST) & !empty($_POST)){
- $email = $_POST['email'];
+ $email = filter_var ( $_POST['email'], FILTER_SANITIZE_EMAIL);
  $password = md5($_POST['password']);
 
  $sql = "SELECT * FROM `admin` WHERE email=? AND password=? ";
@@ -25,7 +25,7 @@ if(isset($_POST) & !empty($_POST)){
 if(isset($_SESSION['email'])){
  $smsg = "<h4 class='smsg'>successful entry</h4>";
 
-    header("location: /admin/") ;
+    header("location: /admin/Dashboard") ;
 
 }
 ?>

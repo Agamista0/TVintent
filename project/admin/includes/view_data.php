@@ -20,8 +20,8 @@
             <td class="txt-oflo" style="white-space: nowrap; overflow: hidden;  text-overflow: ellipsis; max-width: 200px;  " >'.$row["title"].'</td>
             <td class="txt-oflo">'.$row["created_at"].'</td>
 
-            <form action="Delete_post.php" method="post">
-                <td class="txt-oflo"> <a href="new-post.php?Edit_post='.$row['id'].'" class="btn btn-info btn-rounded btn-outline hidden-xs hidden-sm waves-effect waves-light">Edit<a> 
+            <form action="Delete_post" method="post">
+                <td class="txt-oflo"> <a href="new-post?Edit_post='.$row['id'].'" class="btn btn-info btn-rounded btn-outline hidden-xs hidden-sm waves-effect waves-light">Edit<a> 
                  <a href="?delete_id='.$row['id'].'" class="btn btn-info btn-rounded btn-outline hidden-xs hidden-sm waves-effect waves-light">Delete<a>
                  </td>
             </form>
