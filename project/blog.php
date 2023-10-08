@@ -28,7 +28,7 @@ $(window).scroll(function() {
     if ($(window).scrollTop() >= $(document).height() - $(window).height() - 100) {
         $('.ajax-load').show();
         $.ajax({
-            url: 'load_posts.php',
+            url: 'load_posts',
             type: 'post',
             data: {offset: offset},
             success: function(response) {

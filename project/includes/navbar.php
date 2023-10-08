@@ -10,7 +10,7 @@
 <body><div class="navoverlay" id="overlay"></div>
 
 <div class="custom-navigation-bar">
-    <a href="home.php"> <img src="assets/icons/Multimedia Tv Podcast Play Service Logo.svg" alt="" class="custom-navigation-bar-logo"> </a>
+    <a href="home"> <img src="assets/icons/Multimedia Tv Podcast Play Service Logo.svg" alt="" class="custom-navigation-bar-logo"> </a>
     <ul class="custom-navigation-bar-list">
         <li><a href="home" class="custom-navigation-bar-link">Home</a></li>
         <li><a href="portfolio" class="custom-navigation-bar-link">Portfolio</a></li>
@@ -25,13 +25,13 @@
     <a class="custom-navigation-bar-toggler" id="toggleButton"><i class="fa-solid fa-bars"></i></a>
     <ul class="custom-navigation-bar-list-small" id="navbar-list-small">
     <i class="fa fa-times" aria-hidden="true"></i>
-        <li><a href="home.php" class="custom-navigation-bar-link">Home</a></li>
-        <li><a href="portfolio.php" class="custom-navigation-bar-link">Portfolio</a></li>
-        <li><a href="blog.php" class="custom-navigation-bar-link">Blog</a></li>
+        <li><a href="home" class="custom-navigation-bar-link">Home</a></li>
+        <li><a href="portfolio" class="custom-navigation-bar-link">Portfolio</a></li>
+        <li><a href="blog" class="custom-navigation-bar-link">Blog</a></li>
         <li><a class="custom-navigation-bar-link" onclick="navigateAndScroll()" >Services</a></li>
-        <li><a href="about.php" class="custom-navigation-bar-link">About us</a></li>
-        <li><a href="contact.php" class="custom-navigation-bar-btn-small custom-navigation-bar-contact-btn">Contact</a></li>
-        <li class="last-list-li"><a href="support.php" class="custom-navigation-bar-btn-small  custom-navigation-bar-support-btn">Support</a></li>
+        <li><a href="about" class="custom-navigation-bar-link">About us</a></li>
+        <li><a href="contact" class="custom-navigation-bar-btn-small custom-navigation-bar-contact-btn">Contact</a></li>
+        <li class="last-list-li"><a href="support" class="custom-navigation-bar-btn-small  custom-navigation-bar-support-btn">Support</a></li>
     </ul>
 </div>
 <script src="js/navbar.js"></script>

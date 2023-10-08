@@ -13,7 +13,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/includes/footer.css">
+    <link rel="stylesheet" href="./assets/css/includes/footer.css"> 
     <title>Document</title>
 </head>
 <body>
@@ -31,7 +31,7 @@
               <a href="careers">Careers</a>
             </li>
             <li>
-              <a href="About">About</a>
+              <a href="about">About</a>
             </li>
             <li>
               <a href="portfolio">Portfolio</a>
@@ -59,10 +59,10 @@
         <div class="contact-footer">
         <p class="contact-footer-p" >Having Issues?</p>
         <p class="contact-footer-p2">contact us using the support form</p>
-          <a href="support.php" class="footer-contact-link">Support</a>
+          <a href="support" class="footer-contact-link">Support</a>
  
           <p class="Enquiries-link contact-footer-p">For Enquiries</p>
-          <a href="contact.php" class="footer-contact-link">Contact</a>
+          <a href="contact" class="footer-contact-link">Contact</a>
         </div>
         <div class="footer-section">
           <h4 class="footer-heading">Follow Us</h4>
@@ -97,16 +97,16 @@
           <div class="dropdown-content">
             <ul>
               <li class="dropdown-li">
-                <a href="blog.php">Blog</a>
+                <a href="blog">Blog</a>
               </li >
               <li class="dropdown-li">
-                <a href="careers.php">Careers</a>
+                <a href="careers">Careers</a>
               </li>
               <li class="dropdown-li">
-                <a href="about.php">About</a>
+                <a href="about">About</a>
               </li>
               <li class="dropdown-li">
-                <a href="portfolio.php">Portfolio</a>
+                <a href="portfolio">Portfolio</a>
               </li>
             </ul>
           </div>
@@ -119,16 +119,16 @@
           <div class="dropdown-content">
           <ul>
             <li class="dropdown-li">
-              <a href="about.php" >CTV Monetization</a>
+              <a href="about" >CTV Monetization</a>
             </li>
             <li class="dropdown-li">
-              <a href="about.php"  >Advertising on CTV</a>
+              <a href="about"  >Advertising on CTV</a>
             </li>
             <li class="dropdown-li">
-              <a href="about.php"  >Channel Creation</a>
+              <a href="about"  >Channel Creation</a>
             </li>
             <li class="dropdown-li">
-              <a href="about.php">Content Distribution</a>
+              <a href="about">Content Distribution</a>
             </li>
           </ul>
           </div>
@@ -144,7 +144,7 @@
           <a href="" class="footer-contact-link">Support</a>
  
           <p class="Enquiries-link contact-footer-p">For Enquiries</p>
-          <a href="contact.php" class="footer-contact-link">Contact</a>
+          <a href="contact" class="footer-contact-link">Contact</a>
         </div>
           </div>
         </div>

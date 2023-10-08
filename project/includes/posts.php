@@ -24,7 +24,8 @@
                     <img src="../admin/'.$row["picture"].'" alt="" class="post-img-includes">
                     <div class="post-title-includes">
                         <p class="post-title-p-includes" >'.$row["title"].'</p>
-                        <a href="post?post_num='. $row['id'].'&title='. $row['title'].'" class="read-more-btn">Read More</a>
+                        <a href="blog/post/'.$row['id'].'/'.$row["title"].'" class="read-more-btn">Read More</a>
+                        
                     </div>
                 </div> '; } 
             }
