@@ -65,8 +65,8 @@
 									<h1>We Provide <span>CTV</span> Services That You Can <span>Trust!</span></h1>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque, faucibus libero eu, gravida quam. </p>
 									<div class="button">
-										<a href="portfolio.php" class="btn">Portfolio</a>
-										<a href="contact.php" class="btn primary">Contact Us</a>
+										<a href="portfolio" class="btn">Portfolio</a>
+										<a href="contact" class="btn primary">Contact Us</a>
 									</div>
 								</div>
 							</div>
@@ -83,8 +83,8 @@
 									<h1>We Provide <span>CTV</span> Services That You Can <span>Trust!</span></h1>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque, faucibus libero eu, gravida quam. </p>
 									<div class="button">
-										<a href="portfolio.php" class="btn">Portfolio</a>
-										<a href="contact.php" class="btn primary">Contact Us</a>
+										<a href="portfolio" class="btn">Portfolio</a>
+										<a href="contact" class="btn primary">Contact Us</a>
 									</div>
 								</div>
 							</div>
@@ -101,8 +101,8 @@
 									<h1>We Provide <span>CTV</span> Services That You Can <span>Trust!</span></h1>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisl pellentesque, faucibus libero eu, gravida quam. </p>
 									<div class="button">
-										<a href="portfolio.php" class="btn">Portfolio</a>
-										<a href="contact.php" class="btn primary">Contact Us</a>
+										<a href="portfolio" class="btn">Portfolio</a>
+										<a href="contact" class="btn primary">Contact Us</a>
 									</div>
 								</div>
 							</div>
@@ -325,7 +325,7 @@
 							<h2>Want to work with us? Call @ 1234 56789</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor dictum turpis nec gravida.</p>
 							<div class="button">
-								<a href="contact.php" class="btn">Contact Now</a>
+								<a href="contact" class="btn">Contact Now</a>
 								<a href="#" class="btn second learnmore" data-info="4">Learn More<i class="fa fa-long-arrow-right"></i></a>
 							</div>
 						</div>
