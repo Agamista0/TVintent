@@ -25,16 +25,16 @@
           <h4 class="footer-heading">About Us</h4>
           <ul class="footer-ul">
             <li>
-              <a href="blog.php">Blog</a>
+              <a href="blog">Blog</a>
             </li>
             <li>
-              <a href="careers.php">Careers</a>
+              <a href="careers">Careers</a>
             </li>
             <li>
-              <a href="About.php">About</a>
+              <a href="About">About</a>
             </li>
             <li>
-              <a href="portfolio.php">Portfolio</a>
+              <a href="portfolio">Portfolio</a>
             </li>
           </ul>
         </div>
@@ -43,16 +43,16 @@
           <h4 class="footer-heading">Services</h4>
           <ul class="footer-ul">
             <li>
-              <a href="about.php">CTV Monetization</a>
+              <a href="about">CTV Monetization</a>
             </li>
             <li>
-              <a href="about.php">Advertising on CTV</a>
+              <a href="about">Advertising on CTV</a>
             </li>
             <li>
-              <a href="about.php">Channel Creation</a>
+              <a href="about">Channel Creation</a>
             </li>
             <li>
-              <a href="about.php">Content Distribution</a>
+              <a href="about">Content Distribution</a>
             </li>
           </ul>
         </div>
